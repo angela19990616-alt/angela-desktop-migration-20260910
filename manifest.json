@@ -1,0 +1,1748 @@
+{
+  "schemaVersion": 1,
+  "repository": "angela19990616-alt/angela-desktop-migration-20260910",
+  "release": "snapshot-20260910-1",
+  "projects": [
+    {
+      "directory": "angela-website-3d",
+      "asset": "angela-website-3d.zip",
+      "sha256": "85b77e3ae36a16d97ced3f4b7c95215ca49ab57c91e167804d759763d57b7964",
+      "sourceCommit": "3a51b99fb0677ac04bbe3e2210ee1b75d889f343",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 545,
+          "sha256": "42539f1b3ae4cfe1a676ce2543578e67eb46865330f0c000e340e4fea92a26cf"
+        },
+        {
+          "path": ".openai/hosting.json",
+          "bytes": 135,
+          "sha256": "6a8c3fc8a6c7098010a4927bf73f582967b6a08346318055c4f5931e0f950b08"
+        },
+        {
+          "path": ".vinext/fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+          "bytes": 16540,
+          "sha256": "58a6b173d5ca1dec92166ea3c6cb1a84a4144556d10928ac14e8e6b40e4787bd"
+        },
+        {
+          "path": ".vinext/fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+          "bytes": 7968,
+          "sha256": "f689f638f29fff460a2d5749edb5d5c38d7bef0389f32032d871f23fc6ebb008"
+        },
+        {
+          "path": ".vinext/fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+          "bytes": 29288,
+          "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608"
+        },
+        {
+          "path": ".vinext/fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+          "bytes": 7252,
+          "sha256": "b7a545bbb08256bd809f11cfe66d88da3e22d169ea4407737b1ef0ec1ed3d791"
+        },
+        {
+          "path": ".vinext/fonts/geist-8ac0455e797f/style.css",
+          "bytes": 1929,
+          "sha256": "c0a683b78440d8e097c56ed633c297b13eff221f8a6a6b4140934b3ffbd00d48"
+        },
+        {
+          "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+          "bytes": 23108,
+          "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b"
+        },
+        {
+          "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+          "bytes": 5892,
+          "sha256": "d67e4a94ba498635f764ddca7d1ec4271f5642f032eb24b426764480f66f8497"
+        },
+        {
+          "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+          "bytes": 14712,
+          "sha256": "745994b5cd950ec201b66526375f057d540847cccfc70f4f24f5f571d26d3923"
+        },
+        {
+          "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+          "bytes": 12872,
+          "sha256": "75b3bedbebc35f347c0ae3b416aa871941555357e7b0f83767eb5987875589ed"
+        },
+        {
+          "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+          "bytes": 7728,
+          "sha256": "16e1d48b6dd29eb240aec5db36184eb182933c082cd43de7f35af686d58087d2"
+        },
+        {
+          "path": ".vinext/fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+          "bytes": 6204,
+          "sha256": "e27f657e38d52887baa3b6b2f812bef93dfdd356f0810e40edd4ee284cc7e9f6"
+        },
+        {
+          "path": ".vinext/fonts/geist-mono-00e989178794/style.css",
+          "bytes": 2334,
+          "sha256": "99a6f11a770badd87634cb832273852de27934ded2b1847bb1ce32dadedba6ab"
+        },
+        {
+          "path": "README.md",
+          "bytes": 5436,
+          "sha256": "70ef40d45f8c381c87651db8828a2b085bfe3522eebccef2e074fc93a68716d9"
+        },
+        {
+          "path": "STATIC-MIGRATION.md",
+          "bytes": 2415,
+          "sha256": "1d3ce8570241e64f655ed56cabc0331e6e96d68dbe3814814abd6bc442197f02"
+        },
+        {
+          "path": "app/PortfolioScene.tsx",
+          "bytes": 3378,
+          "sha256": "712de843ea4910476daa264d6cfa7995dbee37e2f4d52e5fe8596ce346051d1a"
+        },
+        {
+          "path": "app/chatgpt-auth.ts",
+          "bytes": 2404,
+          "sha256": "17a965f8948b21510cdf8ecbd70c5fdf58100e10970463f6a8fd2cc4795f8044"
+        },
+        {
+          "path": "app/globals.css",
+          "bytes": 13981,
+          "sha256": "763a1aa2093ed5e5ab2d60bcd102f30d7149b9f8f5a716e4c123aca43d3461b1"
+        },
+        {
+          "path": "app/layout.tsx",
+          "bytes": 1244,
+          "sha256": "f95539fdf12a31ba54fe672420cd697e1c3e638c030f060312912e30c2fde148"
+        },
+        {
+          "path": "app/page.tsx",
+          "bytes": 14490,
+          "sha256": "3ad8376567e964fb4904b624f05e909a0476f2d87b811bb07fe0f5cbe7fc8895"
+        },
+        {
+          "path": "app/portfolio-scene.ts",
+          "bytes": 6895,
+          "sha256": "d5c30ab73ba11ed3ae1c5f3728eac62d626021e867ec7d6aa8716f52ec298c94"
+        },
+        {
+          "path": "build/sites-vite-plugin.ts",
+          "bytes": 1254,
+          "sha256": "81b7cbfaeb970611572256aba0e313425beb3809f6426f63750696c15d9c756b"
+        },
+        {
+          "path": "cloudflare-workers.d.ts",
+          "bytes": 129,
+          "sha256": "67b65c3841c0919436f6f623c1138e0d9e5ad1ff306b59688b3a2b7a37218306"
+        },
+        {
+          "path": "db/index.ts",
+          "bytes": 423,
+          "sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd"
+        },
+        {
+          "path": "db/schema.ts",
+          "bytes": 169,
+          "sha256": "13ddacbf0be50e054d450a6c642b7fdc1aa943fd6b99084711e07e58b600390d"
+        },
+        {
+          "path": "drizzle.config.ts",
+          "bytes": 148,
+          "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b"
+        },
+        {
+          "path": "drizzle/meta/_journal.json",
+          "bytes": 61,
+          "sha256": "90cb374e093894d0efce6f1830d873a42aadd8ba49d2f024495e5cb2e1c8c303"
+        },
+        {
+          "path": "eslint.config.mjs",
+          "bytes": 465,
+          "sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493"
+        },
+        {
+          "path": "examples/d1/app/api/notes/route.ts",
+          "bytes": 1700,
+          "sha256": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909"
+        },
+        {
+          "path": "examples/d1/db/schema.ts",
+          "bytes": 370,
+          "sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454"
+        },
+        {
+          "path": "next.config.ts",
+          "bytes": 125,
+          "sha256": "d948148a544f59a01e77cc14da6132ee44839e379c48018e2c337b1595e14d0b"
+        },
+        {
+          "path": "package-lock.json",
+          "bytes": 383395,
+          "sha256": "c2911650f7b2e8d8ae39788e31eb82aa450b5a9c0713a7810753158a6978db92"
+        },
+        {
+          "path": "package.json",
+          "bytes": 1785,
+          "sha256": "4fae782d989bbfb41de326e209ec8e28466188c5fa62dd4f0d8efd76bab7cfce"
+        },
+        {
+          "path": "postcss.config.mjs",
+          "bytes": 94,
+          "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+        },
+        {
+          "path": "public/angela-tech-social.png",
+          "bytes": 1856454,
+          "sha256": "88fd70ce00606c6b002776a107e5c6e9557ccde9b99f036c512e121da59b06f6"
+        },
+        {
+          "path": "public/favicon.svg",
+          "bytes": 712,
+          "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+        },
+        {
+          "path": "public/file.svg",
+          "bytes": 391,
+          "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4"
+        },
+        {
+          "path": "public/globe.svg",
+          "bytes": 1035,
+          "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/063f4d7f35f8a940f92a.png",
+          "bytes": 71701,
+          "sha256": "063f4d7f35f8a940f92aa764976efd05c5f984dbeb128d87db1892a8cc29fd47"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/0ba150386cdc8070c2d2.png",
+          "bytes": 19460,
+          "sha256": "0ba150386cdc8070c2d20bd750554185ef72a906dc57c62d3e617b2353318eb0"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/316532be1ebc15d6f93f.png",
+          "bytes": 30229,
+          "sha256": "316532be1ebc15d6f93f6b99ad8d19357de688a6d187f7f1fadf5c7377fff364"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/3d0663932a7b9857c37c.png",
+          "bytes": 2179118,
+          "sha256": "3d0663932a7b9857c37c913f7fb4ea93ff0857caff91a147904a5cfc9c59755e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/4c515784c22ef73e2450.webp",
+          "bytes": 304722,
+          "sha256": "4c515784c22ef73e2450d575a96ad27036192ea85be4b8070c1f5416f9721c2a"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/5073200c30a0f0cefded.jpg",
+          "bytes": 69868,
+          "sha256": "5073200c30a0f0cefded5e42b2cc4ebb6546d1aa79a95614313a961ffca89d71"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/508b9162e78f5b9aabb1.png",
+          "bytes": 20934,
+          "sha256": "508b9162e78f5b9aabb18e68991cd1f96c7b37ce4662ac21916f445a17463648"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/55cbe78054d8a298a918.webp",
+          "bytes": 224702,
+          "sha256": "55cbe78054d8a298a918e68c18fad828a1b913cf3925e87e68a2995f19e6642f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/5dc4c8e0cfca3636d7c2.png",
+          "bytes": 87269,
+          "sha256": "5dc4c8e0cfca3636d7c27e768ee1cb2b1b6553d258f6405420a607248a5096ca"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/632daa23046a07f14abf.webp",
+          "bytes": 237948,
+          "sha256": "632daa23046a07f14abff37b33f78846ae2021fe28e706e40e62509d607f1c62"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/6820234897ced73e9541.wav",
+          "bytes": 2816044,
+          "sha256": "6820234897ced73e9541b37f1825ee3fc5de140bae3c41496e42f0d48c64a078"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/6a75599d5c0263e7c820.webp",
+          "bytes": 203596,
+          "sha256": "6a75599d5c0263e7c820ba6e1f6c3b0dfaffaa7351be335aa9ff921989851b2c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/7554b5eed27aa75f5a73.webp",
+          "bytes": 236660,
+          "sha256": "7554b5eed27aa75f5a730260404ce5a34bddf9bba6631c0b352d12747eeac2aa"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/7602fd6b431dc6d3590a.png",
+          "bytes": 23420,
+          "sha256": "7602fd6b431dc6d3590a91ebece877ffc664b971567c5a86f87e0c0fa5606ecd"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/79378edd2e2bf81ec06b.webp",
+          "bytes": 222844,
+          "sha256": "79378edd2e2bf81ec06b464ca3904c3d7e4c3ee55842a36cb470a61e5eef55e4"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/7b1f884730faaf5687f3.webp",
+          "bytes": 244192,
+          "sha256": "7b1f884730faaf5687f3ef697527bf5fea130af6237ca2d3a777b80added9272"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/87ed3fde3a7cf771a59a.webp",
+          "bytes": 247166,
+          "sha256": "87ed3fde3a7cf771a59a2d631e320ad2388c6809ac533608acb3ad477c8d3155"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/8c9cf69da8d16a99b4d8.webp",
+          "bytes": 236884,
+          "sha256": "8c9cf69da8d16a99b4d8c5bb61b4dfcff141f4a105a64d54856a1d04ad3dc0ac"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/98bdaee8607a0ac23374.webp",
+          "bytes": 214760,
+          "sha256": "98bdaee8607a0ac23374e4f576d987878d52d46065307a85ed70860a94013631"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/9f8ca255cc092287950a.png",
+          "bytes": 197765,
+          "sha256": "9f8ca255cc092287950a4a393a89de5e0b8a95be53bec34544b7b16f91e056f6"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/a90e177814d23e8020f0.webp",
+          "bytes": 143628,
+          "sha256": "a90e177814d23e8020f079f583b5f8d50f206f1b4bff930326bd096f8549aaf5"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/b73050b694bbb27cd0e7.png",
+          "bytes": 2344839,
+          "sha256": "b73050b694bbb27cd0e7de08bf9594516586cbb5102ef761761b7619cabf0b1a"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/bdfb1b4e1530c98d6ac4.png",
+          "bytes": 428899,
+          "sha256": "bdfb1b4e1530c98d6ac4da2782c38d8702048aa0288dd8762a2f0600c58bb21b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/cc5f171431e45dc9282b.png",
+          "bytes": 2136420,
+          "sha256": "cc5f171431e45dc9282b1363b0e0406a57e0a96d163ec67ec36cd8ed5b82d95e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/cfc5c7a128bfeb41dce5.png",
+          "bytes": 2238839,
+          "sha256": "cfc5c7a128bfeb41dce51e14dd27d2bdf792a56832f69213bf8f5f5b7e456bc2"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/d4da9f23aabd04c7762a.png",
+          "bytes": 49705,
+          "sha256": "d4da9f23aabd04c7762aead417fa51d4e9732b1a07e0a0b099025583c3bd4e75"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/d6f109245fc35c9b0d14.jpg",
+          "bytes": 69748,
+          "sha256": "d6f109245fc35c9b0d145ce9c29b3be5cacc765d09a6825b36269336f8d0fef3"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/da0fb0b9ecfe1bd6c044.webp",
+          "bytes": 360884,
+          "sha256": "da0fb0b9ecfe1bd6c04460532cd8a59af2397155ed293a64f91e8d161cbd3376"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/daaa241faff437f8c2d2.webp",
+          "bytes": 298762,
+          "sha256": "daaa241faff437f8c2d237b3d426eb2115c8932d6c2c1c2a4c6211fb5cca0a3b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/e6d5215002ea8e50eb37.png",
+          "bytes": 174986,
+          "sha256": "e6d5215002ea8e50eb370293743d30f3c60f1a1c542d272b47aaa511674cd83e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/eb945ecebc3a374be1d9.png",
+          "bytes": 2140549,
+          "sha256": "eb945ecebc3a374be1d9d7a2d58903c3585a50c9007dd5edc71ba698afaba67d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/ed2e3849bc0b015b1430.webp",
+          "bytes": 218992,
+          "sha256": "ed2e3849bc0b015b14301523ec232d1dc755fe0fd699e06d3bd99df15dd3fe29"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/ee21333da91bb5e4416b.webp",
+          "bytes": 263256,
+          "sha256": "ee21333da91bb5e4416bbae25a83269d2f77ecde130a7f63b7cbcd3649df71c5"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/eedc9b349e9b9ec4e2e0.webp",
+          "bytes": 292944,
+          "sha256": "eedc9b349e9b9ec4e2e062183f2805c16612be9d0b968554c740f04d32a9a15c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/f7b77f8869364a0a3dca.webp",
+          "bytes": 273020,
+          "sha256": "f7b77f8869364a0a3dcad6f91bdc2dff1faba0b89a755328dc17363b3b01288d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/assets/fda5c2dda390fe0b54a4.png",
+          "bytes": 47579,
+          "sha256": "fda5c2dda390fe0b54a474b0ff3aa610c91eb6e2f49c9338728db8adad46f34e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/cover-s01.mp3",
+          "bytes": 70680,
+          "sha256": "34f8f6090e687dd5c45e630f2d25a08590ed4f1b328dc103b5a17f8b626f4b4c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/cover-s02.mp3",
+          "bytes": 84472,
+          "sha256": "1b585cb278097e669f9db96dfedfdc0c285b69b3d9c07d5ce1b0fe4c39069c67"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/cover-s03.mp3",
+          "bytes": 84054,
+          "sha256": "f0ac8470f11f85e48678f478bceb0358befef0c6d5db4b2ec1a1d67cb731f6e7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/cover-s04.mp3",
+          "bytes": 35571,
+          "sha256": "5ed886e10a1cf744bbda0c04dbabd44f6faf90a294b53eb19f00075ff22204da"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/cover-s05.mp3",
+          "bytes": 57723,
+          "sha256": "489cc41dc534521aac828f3331b3bdb4d8ea42491b94c46ef5764bb817dd51cd"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p01-00-s01.mp3",
+          "bytes": 55633,
+          "sha256": "160473527de4bf5e11e913b09d7094814636b088803b579c84baf6cb58d8b7a4"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p01-00-s02.mp3",
+          "bytes": 65246,
+          "sha256": "1ccf3ab20fccd7a7ffcdf9cb81f395e7b8ff30e78ed1b5c631c0a6365cdd81d2"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p01-00-s03.mp3",
+          "bytes": 101609,
+          "sha256": "a4b946e480a93e63372d28d28237cdfe001a28a513a3367ead7c3ce9f08b2334"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-00-s01.mp3",
+          "bytes": 30556,
+          "sha256": "f8586cd8072fa148b64ff14f022148d38c2aa3104793905c1d47731ed9b5e231"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-00-s02.mp3",
+          "bytes": 25958,
+          "sha256": "30784e5f35ffbd07965d9f4d382d22cc72ca1bca1b8675cde15ee4757f64d5a9"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-00-s03.mp3",
+          "bytes": 60649,
+          "sha256": "52cf8c9819b198dc228b985e36785b5ff736b7c997438c68701190db746a53af"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-00-s04.mp3",
+          "bytes": 40169,
+          "sha256": "278e9b10e21632f0c2d0c759bc6671552f91b541004f4ce67283172db0fa4efd"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-00-s05.mp3",
+          "bytes": 53543,
+          "sha256": "a877b2dedf548db3e517a5bb4d65eed4a32d860b3fd3e8583d98850cc9cef5a1"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-00-s06.mp3",
+          "bytes": 94921,
+          "sha256": "eea1dfdd1f4d02a26cf8af06c5955deb07dd97a6c5b49ede401fa1175b1c2201"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-00-s07.mp3",
+          "bytes": 27212,
+          "sha256": "7485ae6a019849720ea3392d269c19117858eff5e97f4029e0403ac306a8d063"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-01-s01.mp3",
+          "bytes": 78621,
+          "sha256": "11ae78a3d83e94329d006d76cb78a2af1690e3d662b1a5aee5f45bd73440bc4b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-02-s01.mp3",
+          "bytes": 39333,
+          "sha256": "7621ec1aae414ec61a1708256e75bf8bcf4f0e161362626c4ed7cb4bd0035c9b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-02-s02.mp3",
+          "bytes": 44348,
+          "sha256": "dc6e5d9beed812aad59147bd7d96cbc22ad8ba44052973ec4ece61c89491e03b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-03-s01.mp3",
+          "bytes": 38497,
+          "sha256": "e39cc116a12de59390d1526056e659f7b35b446c042acf34d68c8073b50106b6"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-04-s01.mp3",
+          "bytes": 91996,
+          "sha256": "1169f5d8fddeee28f04e7669b001d657bbd6632e2b5f8e28697bc36b1f1763a1"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-05-s01.mp3",
+          "bytes": 53543,
+          "sha256": "6a25526ea16a31b717cb3dcd66ba8a422f8195def90065db38c2be7158f938cc"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-05-s02.mp3",
+          "bytes": 45184,
+          "sha256": "1b40174a72e71eac506b7cbd9496f8103a429d9e43f04775ded33f0e131ede19"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-06-s01.mp3",
+          "bytes": 68172,
+          "sha256": "6b839c8e6260a903c8867d6380d3812ed7f5748807db7863446e17ec4c83eb8a"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-06-s02.mp3",
+          "bytes": 80293,
+          "sha256": "9e6e303a3f7f35b9fbdc268b71e0fb105702b73116f8f06175160f696d73a4d3"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-06-s03.mp3",
+          "bytes": 36407,
+          "sha256": "1ee1726216b03587d8a1cdebd5a3e8b94b99504e9e5804ceef2c4da780edd60e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-06-s04.mp3",
+          "bytes": 47274,
+          "sha256": "d1febe98a51dd8c8ef990e0182f55793a35c053eab13e0122da9620ce46e1e47"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-07-s01.mp3",
+          "bytes": 36407,
+          "sha256": "4b2db0c46f28f871cacb5dd6554ea4af709efbfb6d2ccc2c661ec014fb8320dc"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-07-s02.mp3",
+          "bytes": 31809,
+          "sha256": "dbb3174c3e95340c3ac18879c0d6a8b66688dfff5bb9591a59ce1d9effaffe8c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-08-s01.mp3",
+          "bytes": 25958,
+          "sha256": "f61bff1c3c882fb3d6f4f9faeae4b8b9a6463818ee182901b10e65c051df6a11"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-08-s02.mp3",
+          "bytes": 79457,
+          "sha256": "10d71d8d3fbef951c7a32de2bdc4fb5a06f5c719c62f92e94ab379d610520c33"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-09-s01.mp3",
+          "bytes": 24286,
+          "sha256": "639d523884dffad1f8cb35ed091fa68cac557d8b8f529eb4429ce7891dd1b51d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-09-s02.mp3",
+          "bytes": 63992,
+          "sha256": "e7426f3c28331a224eb9a79268113a637549d2a789dbe4c46a73849146cc6e49"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-10-s01.mp3",
+          "bytes": 40587,
+          "sha256": "d7d6ea037de60246f71ab10244ccfd9b5d2a0f571b492870a41df138dfd4d31b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-11-s01.mp3",
+          "bytes": 124596,
+          "sha256": "9ed87dd181c1de63d9afee74364fe2f78fc00338caa16b2ab06969a60f933bbb"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p02-11-s02.mp3",
+          "bytes": 68172,
+          "sha256": "edeb296b1252dea04baa4716e8558f610f742c04a8ec7b559f46c111397c10e0"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-00-s01.mp3",
+          "bytes": 60649,
+          "sha256": "062f5902036dd1fcfcea9de097a217c70ffabf03200a5cb5a5f0868014bbf399"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-00-s02.mp3",
+          "bytes": 40587,
+          "sha256": "b34e92e609161ad9efd3e2d91c329854811d31834c439a539cc6571a789cba09"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-00-s03.mp3",
+          "bytes": 66082,
+          "sha256": "334d382fd0d6a105a3a3176b13a4c2b8406dd2dc0cb70b041ea01d8be666c838"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-01-s01.mp3",
+          "bytes": 22196,
+          "sha256": "2e666093f1267ea16a461fa963fec16aaae02d67ba548c1dc3e0c81f06852c0c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-01-s02.mp3",
+          "bytes": 54797,
+          "sha256": "d90ed378890938ac85130e6b71c950d816faccb257ccca702ce4626e708be397"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-02-s01.mp3",
+          "bytes": 22196,
+          "sha256": "26d3f7d51deb0f019cf69e6453ad66f81b0445d4b834d97eeee265a348e15bfd"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-02-s02.mp3",
+          "bytes": 55633,
+          "sha256": "9030e6f3f3d523ec12d615069ec20baa8e69320f27869993649b23914e38c52e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-03-s01.mp3",
+          "bytes": 23032,
+          "sha256": "285f6bf514f564f9a23ebc7c88942bd8f9337027730ac0836f588cb9c9fc6b66"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-03-s02.mp3",
+          "bytes": 51036,
+          "sha256": "7b6a7df8fcb4e36a56ae53c1c751fabd71bcf968841059405765225204baf814"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-04-s01.mp3",
+          "bytes": 20525,
+          "sha256": "dfc5bba15672b0f6d297f8df0e314c113c8af220b2e37f7b477e641341adc176"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-05-s01.mp3",
+          "bytes": 22196,
+          "sha256": "5c0fe1d81fe160aa8b68ff62c1e0e6b49adf6c0134f8b028c7c2ab686b882b78"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-05-s02.mp3",
+          "bytes": 43930,
+          "sha256": "bc82e5fdddba2ffa190c7c06eff9cefc31b56bc43f5aaaca31eaf4409814db54"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-06-s01.mp3",
+          "bytes": 43930,
+          "sha256": "e98fb1f5be341898dde578f745ed8d715c3bbedf61d17370604e9fff0a3cb820"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-07-s01.mp3",
+          "bytes": 60649,
+          "sha256": "2fa2341e40aa32ef1fedb6ad96eff8e7f0bfa4f4ca54b95d8d90948352ee1fe3"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-07-s02.mp3",
+          "bytes": 53543,
+          "sha256": "ef75a9c07095d6db79aa9b8b6f67b49e8f308b464320006383de4080a9d9fe76"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-08-s01.mp3",
+          "bytes": 23032,
+          "sha256": "ed29c3f93d0c4a260383754f3aaf404f740159a61b84437aa93d985a8d504b5b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-08-s02.mp3",
+          "bytes": 63156,
+          "sha256": "cc35a3b41c0b794b2e619be1c8d199c190da282a4a4db946521e38d43122c8d6"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-09-s01.mp3",
+          "bytes": 22196,
+          "sha256": "23e40d7bc6322291221e5aaa87691e9ac637522c20be547a18480e903a3f7c69"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-09-s02.mp3",
+          "bytes": 60649,
+          "sha256": "f93ba4ea52a1cbd5294c202a256abd9d504585bff91cd06da62d681a6d1d262e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-10-s01.mp3",
+          "bytes": 72769,
+          "sha256": "9c09bfa662c08721c34da043eae76b9e0a639c99ff817fe5d0cf679a5de85b54"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p03-10-s02.mp3",
+          "bytes": 91996,
+          "sha256": "79348db8c7eecbe30314f750fad789070c2de695fc5732f3b7d2d590c035b140"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p04-00-s01.mp3",
+          "bytes": 67336,
+          "sha256": "34e2d9f1a53bc072bb0a0488d58cfecb5e4684604acf5c8c0668cee9a9e02d54"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p04-00-s02.mp3",
+          "bytes": 37661,
+          "sha256": "7b904cec8537efdcae61b325d1a92ceab577e44810b3a58ff4ef5fe31c2c9940"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p04-00-s03.mp3",
+          "bytes": 65246,
+          "sha256": "2202eaccb6d1e62b9a4ba5986fc2dad43e6720d73aecd31962a2a64fa926a6a5"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p04-00-s04.mp3",
+          "bytes": 137553,
+          "sha256": "1d11c2afda0cf09c8664fa90193c38760f8244180a88a470c153251e098bd2cb"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p04-00-s05.mp3",
+          "bytes": 95757,
+          "sha256": "40e35ca1f3e2055c55f0bf192b88b8a237780ac97815e93072fa0f6dbefa1477"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p04-00-s06.mp3",
+          "bytes": 57305,
+          "sha256": "9e39de8dcaa86db8ee116360a689cab1a02053f1bcae6b6a52bb3f59d902641a"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p04-00-s07.mp3",
+          "bytes": 107042,
+          "sha256": "34d34f8bdde02b7c6a72b90d426a1712dc1ee2ccb40d6bfb764826822af39e40"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p04-00-s08.mp3",
+          "bytes": 86980,
+          "sha256": "cacf21aaacb51441add9bf156ab465c5693756b91c815e90bdc1ea950615010b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p05-00-s01.mp3",
+          "bytes": 112058,
+          "sha256": "596110791f4fcc51187b778735bc0b4ba0bbe604da19adbcaa4383d5ae3e828f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p05-00-s02.mp3",
+          "bytes": 121671,
+          "sha256": "05fda20d55ecf8e2834f6866b48fdf6c899ba807ac28dd9a4756d3d8184c9647"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p05-00-s03.mp3",
+          "bytes": 74023,
+          "sha256": "b815576db7a3d364a8a006d4c8af2d62318ae776ec8de29a6c7c51ad6ec093d7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p05-00-s04.mp3",
+          "bytes": 66918,
+          "sha256": "62383db97ae3b706e6955ed19c5f3397118396f8967d73864d254b83370df350"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p05-01-s01.mp3",
+          "bytes": 124596,
+          "sha256": "d22dfd86455d3536248107f9973abb0d15bb021e76b0f4c9f16e8b8c524b420e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p05-01-s02.mp3",
+          "bytes": 112058,
+          "sha256": "78052b98d4cda01ab62aa3d1542b0d4ebee058896bb93115c344c9ed8fcf87e1"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p05-01-s03.mp3",
+          "bytes": 63156,
+          "sha256": "b1e1f5311c206ed585a2ea36ded6ab3987bf211d312b888bb67849f54207d07f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p05-01-s04.mp3",
+          "bytes": 134209,
+          "sha256": "4a744872225219392cceeee1d23a164397c4de484b1f6956cb3f79430cf9bdb8"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-00-s01.mp3",
+          "bytes": 45184,
+          "sha256": "bc00b92f0f47a7c24c120197a12035cd5e7da07aa06cc2407e6e9de813d6eae7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-01-s01.mp3",
+          "bytes": 31809,
+          "sha256": "c13db6f7807468b7ec8931b7c03e23d471f2a50ba71a3e7f5df0c019db7aa90f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-02-s01.mp3",
+          "bytes": 31809,
+          "sha256": "992dc84e640297552e1dca0b122f5503296a1a2e960779d89152d5f6f106ff11"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-03-s01.mp3",
+          "bytes": 25122,
+          "sha256": "6c56340b7f52256f6f58ba3bd85c035c714668e8241d8a71f9bd010f85483ec8"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-04-s01.mp3",
+          "bytes": 30556,
+          "sha256": "04ad38794023ba0cb9a3f456e1c9845f92f9358ee49c6d7e4ea53bc7dc02955b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-05-s01.mp3",
+          "bytes": 141733,
+          "sha256": "5dbc7be45edd4b2ad38a7a7e4588b4fa284a08c4654fe20131a80a25c2aadb2c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-06-s01.mp3",
+          "bytes": 112894,
+          "sha256": "ac093a8d1c1c237fbd0a025cfacdd767a9c51b29e441affc7f68a4b96302c671"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-07-s01.mp3",
+          "bytes": 50618,
+          "sha256": "554f4a1cf980e39f82f3f594c1fd7e9b875ce762f89acfcc1b5f809844ebdac4"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-07-s02.mp3",
+          "bytes": 59395,
+          "sha256": "978a30a0ed56ca19ffa40376abc403cae7d963d6978181ddd6afd695c1988e20"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-08-s01.mp3",
+          "bytes": 51036,
+          "sha256": "5a7dbc4842e2efa18f4634bd8fee760429feb106e823fe743f969cfd075f88d7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-08-s02.mp3",
+          "bytes": 24286,
+          "sha256": "261b7f337b4b9a37b12e976e5694e3bcf9cca269dbb77d6e9cca4f6f947aecac"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-09-s01.mp3",
+          "bytes": 39333,
+          "sha256": "fccf6dbc2514832bf81c3ebc71e6752c3763d4ae8cb0cea7ac960796e250d757"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-09-s02.mp3",
+          "bytes": 28884,
+          "sha256": "64267612309da9a0c82c4e4b91bf94ee3381a4982c422daa3478e192ba4a0a16"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-10-s01.mp3",
+          "bytes": 85308,
+          "sha256": "389f28a45258f81ef551b007bd8aab85fc79b147ee8e80acee175a40375a23d9"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-10-s02.mp3",
+          "bytes": 45184,
+          "sha256": "645c109c78d9a1a5005627828558063a8f7fbc90cb78023f56f9f84dbf396109"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-11-s01.mp3",
+          "bytes": 50502,
+          "sha256": "325f7a0cbe6b50c8cbbb62b63306efae4702509eae90163a9eadc0ac333359b4"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-11-s02.mp3",
+          "bytes": 36407,
+          "sha256": "78c07aa103a595716f287bd6f16ecc181ba4d5a5a29effe14ee0afbe7b7ff5a4"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-12-s01.mp3",
+          "bytes": 76531,
+          "sha256": "8a4f27db5b4a3bdaf4b93bef87da78d8c743a8f93f419b9f35f4cbb5689ad29d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p06-12-s02.mp3",
+          "bytes": 92831,
+          "sha256": "1709c3fbb9fc2408eff913b55107449000140158b0c701dbab752c69a336c5d2"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p07-00-s01.mp3",
+          "bytes": 25122,
+          "sha256": "c71b565d03d1e1ee8f7d5a1108af206c53437f8f41ec15677f1b1ed01f8b16bb"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p07-00-s02.mp3",
+          "bytes": 80293,
+          "sha256": "481ca569a7929d0d4df171418ac8969bbc35fe574d3ed763418762776bc6439b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p07-01-s01.mp3",
+          "bytes": 137971,
+          "sha256": "f275b7b7c174be6240ae793d63c9ef6879dae22a683d8b04342c647fbe887ca3"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p07-01-s02.mp3",
+          "bytes": 93667,
+          "sha256": "dc4fee93663cd32394749fee1a02cce979eb04cdd388eb55db7938dc4a40ab94"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p07-01-s03.mp3",
+          "bytes": 77785,
+          "sha256": "5571142cfa27b4f42d5e9f2c1ab0cf7fb4c7f483f359210b61db059154b28d88"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p07-01-s04.mp3",
+          "bytes": 84054,
+          "sha256": "addfcdcedd0935976544d887bd76d982fe2bb7305894f28664ae379255b44ccc"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p08-00-s01.mp3",
+          "bytes": 107460,
+          "sha256": "03169df6a8d6b1445ab94eda7f22cc94d7a6b792cfd3d8e665dad2fbf15c5c9d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p08-01-s01.mp3",
+          "bytes": 154271,
+          "sha256": "a4293c234ad26f22ca29a9498842af489ec5d2739715acb8d98dc7a08eeda520"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p08-02-s01.mp3",
+          "bytes": 153854,
+          "sha256": "2d67f5371ef184f36233457b565c5a03cc9971ee5f739a871a3c94593d679637"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p08-02-s02.mp3",
+          "bytes": 63992,
+          "sha256": "ec73189d7c5fd84c25cebba840179c52d9ff0a1edb930121f4581f247de95135"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-00-s01.mp3",
+          "bytes": 53961,
+          "sha256": "8937a9e21dae57fa1086cc28bb3480fcd2732522357fb00642075e3dd17347df"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-00-s02.mp3",
+          "bytes": 139643,
+          "sha256": "54e32d3ee631dfab3f3cc34b589dc122bee77b3e69756ea22714a30eb12b806f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-00-s03.mp3",
+          "bytes": 25122,
+          "sha256": "ebb283cf2c9b13cb5e2014fd0649d71b6fd0b452354a5da9b6c63bfdcbf7d7f7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-01-s01.mp3",
+          "bytes": 65246,
+          "sha256": "99d6b25f6d9478d8f758f063a7666f47f7d517d86edf4ebd4819779da0916bb1"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-01-s02.mp3",
+          "bytes": 51871,
+          "sha256": "9d917a3b621f35f90638f17a6a3aaa47466f0db7d437815ac699d601d89720f6"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-02-s01.mp3",
+          "bytes": 67336,
+          "sha256": "c4a2be8b2035754e0451585b17ee9c2a81e75e92c696dc484662d5fa720014ba"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-03-s01.mp3",
+          "bytes": 52707,
+          "sha256": "24bacc82fc964a4f4bbee73ca90e25e91f433fcf36e1ed5234f904b1da6a9401"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-04-s01.mp3",
+          "bytes": 66082,
+          "sha256": "aad53d8d88396d175ab599fe7d77cc5fa1d4804faef7356b101707941520b756"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-05-s01.mp3",
+          "bytes": 58559,
+          "sha256": "77f1fde54c3c10dd6c81996b43f60b72b5393b85b191e6a04782ff8b7ed92cd9"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-06-s01.mp3",
+          "bytes": 63156,
+          "sha256": "6bec66105b7367a2e97cdbcff1e6d3631d5376dc4ae2683f7aae6d681eeb7150"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-07-s01.mp3",
+          "bytes": 53961,
+          "sha256": "2ad5ddb8b299dea7a3d045dcc90aa26ba4e3d4972204a0a5e2e12fca342fae66"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-08-s01.mp3",
+          "bytes": 65246,
+          "sha256": "671a872c2248a9906ad98a6bf397c46221e4f25bf95c566de24af78d72e6d1e1"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-09-s01.mp3",
+          "bytes": 147166,
+          "sha256": "1f00ce5b4a1f3ee2ef6eb94748e56b55df6fdd2d50ab6ad0c5af4510c1c4ad3e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p09-09-s02.mp3",
+          "bytes": 25958,
+          "sha256": "38b40f70276c0da77fdb7a82468d8d5b3fe6f0fe6ea2f5e73cc5df6f63c4105f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-00-s01.mp3",
+          "bytes": 49782,
+          "sha256": "cf6919d43cc34fd5736098f2756aaec023d65d0cfb0725390a584fa6ac2364de"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-00-s02.mp3",
+          "bytes": 88234,
+          "sha256": "803a32a2519e020781170cc820f08dcfe8a64e5f27e5efb9c47616c11dd283b2"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-01-s01.mp3",
+          "bytes": 73605,
+          "sha256": "8aa7257a48b8e2eb117b986499d3812db39767bc62e24daa15f970eb1b6a174c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-02-s01.mp3",
+          "bytes": 135881,
+          "sha256": "e646f95f5e45fbd0827e731aab13f54d2504fed622f5661edf1cd1e4291ff20e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-03-s01.mp3",
+          "bytes": 76531,
+          "sha256": "6077e8ba4cd39e4407eda3004b150db1bd159904557371dca6429e3751db794d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-03-s02.mp3",
+          "bytes": 67336,
+          "sha256": "8c50bd49664588236c19b4f8f3b37c1f17dd8a44310cb7ce947e8541b3c7b5c7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-04-s01.mp3",
+          "bytes": 91160,
+          "sha256": "898344c6d3e0e2a73bf2d2f5dedc340126fbaa85ec1c191a9f36c326a6d3a7c5"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-05-s01.mp3",
+          "bytes": 84472,
+          "sha256": "d015d9d9531c12352f96932ac4b77593011442bd741210999f8fd20be092b120"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-06-s01.mp3",
+          "bytes": 151346,
+          "sha256": "efa5bfcfeb1d4ae1f67829e597653f1e493128f8c473541fd14aa75f255b7e5f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-07-s01.mp3",
+          "bytes": 73605,
+          "sha256": "52a77094c0dbd10e8104cc9126012fe7165aa022c18f4e423f7f8f981a7b44d5"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-07-s02.mp3",
+          "bytes": 51036,
+          "sha256": "63d92b95a17ee225b2487a92920dbcedcfc190e5a5fd43ac3c2fb08e7772f4b6"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-07-s03.mp3",
+          "bytes": 74023,
+          "sha256": "42e364a6a6c6e216d6e9b0bf9f46248a6254f304ee04cc28ec44ba5871a88425"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-07-s04.mp3",
+          "bytes": 74023,
+          "sha256": "5464423c6ed2a19e1bea59fdddb96033d1baea9989e7519fc5e7101f5fab7665"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p10-07-s05.mp3",
+          "bytes": 98683,
+          "sha256": "cf61c8a24232c210971b769639c017bf14d8f985fdd25423bea1626724c28f74"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-00-s01.mp3",
+          "bytes": 43930,
+          "sha256": "35dc95545f453dd01279855b89a40d4a9231efc34cf6564ef4a86d4e7ddd5649"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-00-s02.mp3",
+          "bytes": 104534,
+          "sha256": "c3d7140b3e9cf7c17d9843ef4e02986b77a2d189bcfc5c9e38a9b2da4e07cd78"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-01-s01.mp3",
+          "bytes": 21360,
+          "sha256": "a1729f31d2bd5d4f291c5f7b47afeafea6e33897104926dc87db1450829c5f41"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-01-s02.mp3",
+          "bytes": 66082,
+          "sha256": "9801e65b67df0c916606af803f95e822f7f4c8e78f40f0c7e078ac37177b3069"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-02-s01.mp3",
+          "bytes": 91160,
+          "sha256": "59547fc78ede93cb6095852c242864b499847ee7373add1b7c22a47c0a9d5feb"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-03-s01.mp3",
+          "bytes": 66918,
+          "sha256": "06de5e53a495f38869367da89d612c37ab111deb6d061195bececfaa588a6841"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-04-s01.mp3",
+          "bytes": 98683,
+          "sha256": "d67ca3ffab48ee334222411172c0c83ef9899430728a4347650c26e47f960613"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-05-s01.mp3",
+          "bytes": 51036,
+          "sha256": "63e1995cacdff153093ff0ff6f9813b8e5aa1fd4d02ef24716a60e0c8c23108b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-05-s02.mp3",
+          "bytes": 19271,
+          "sha256": "82f07af22f3a56f2143ade46d113170f8961ca8aff4ea3cff32466b14e8e15f1"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-06-s01.mp3",
+          "bytes": 97429,
+          "sha256": "91991b572307a7ed530d51bcc6e039797145c98946f5c79f7852110c74490287"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-07-s01.mp3",
+          "bytes": 66918,
+          "sha256": "85651bf5abd32ab51689681e17f4f4221ede9819fc551ac5333036a24bfd5894"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-07-s02.mp3",
+          "bytes": 32645,
+          "sha256": "98fe557a8d8fef4aff5d102ac85b0d8547ddf7b848de0987ad4558a09764c870"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-08-s01.mp3",
+          "bytes": 78621,
+          "sha256": "f0ef75f8ca350f4ccce2d57ac27d9a1b93c292beca0a3e28bc09c5ab41b846c3"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-08-s02.mp3",
+          "bytes": 23868,
+          "sha256": "3cbe105678a4ede1cf79df50ee00e758761cba441b1e7c4441b3b92ed9e2bd97"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-09-s01.mp3",
+          "bytes": 49782,
+          "sha256": "0e16c81bf1f52f0357784621d6268c11433d1e91dfd522e1ac9c51dcff60fd98"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-09-s02.mp3",
+          "bytes": 54797,
+          "sha256": "7f35effcefc3f7373b9d55e6b1421fafd016db133c276d38965939a356accc74"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p11-09-s03.mp3",
+          "bytes": 67336,
+          "sha256": "966186c08d4d9a618c9112b220319e6ba9b92fba7274771d67520663c988d792"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-01-s01.mp3",
+          "bytes": 100355,
+          "sha256": "b712e9a69f25a8ae718893c6767e993516014906cfe7673a395a5985187dfffd"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-01-s02.mp3",
+          "bytes": 84472,
+          "sha256": "68361bd0599ab9ef2e8c07d776ba3d56ce8018176a8dab529e3b89fd81617325"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-02-s01.mp3",
+          "bytes": 29720,
+          "sha256": "190d64edc0ecebda7c3b52bbbe05f846ba8d6ddb11bed0be738b01a1f20f85a0"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-03-s01.mp3",
+          "bytes": 45184,
+          "sha256": "bbd70fd5f6ac14003e3bd9d59bc65c6a7d8e09556f37bcc9bb586ed3bfe46751"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-03-s02.mp3",
+          "bytes": 62320,
+          "sha256": "fdaa2f2c6c116826766f5ca76ee237fbf5c2eb312950840cd2bb8d2a9c3c0157"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-04-s01.mp3",
+          "bytes": 15509,
+          "sha256": "74703d90a64d3ccd2b89a7470a611263b2e9645ab369a62010aafab3841472d9"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-04-s02.mp3",
+          "bytes": 40169,
+          "sha256": "7078fdc545ed471cbfccfdf108289fcfa64d43796f74c5af11b6ad85f6ab8f4f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-04-s03.mp3",
+          "bytes": 60231,
+          "sha256": "3b90ed59026310eebf4ceed2e7bce7fdc8d4d82ff4e7aa279f4278876078f77c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-05-s01.mp3",
+          "bytes": 28048,
+          "sha256": "b37fc2a8d089f0d91f0fb6e9b3beca4d65064514f318923626cd22a71e0610c7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-05-s02.mp3",
+          "bytes": 57305,
+          "sha256": "4afc6081c55044c163f7af917ed05659174408f271cc4791745df2ccf02f8dbe"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-06-s01.mp3",
+          "bytes": 69008,
+          "sha256": "5c4e9546368548e311c1e0fa3cb85af0cd32e3f20eafa1566bb16d201edd56a0"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-07-s01.mp3",
+          "bytes": 89070,
+          "sha256": "f0e43a6885ffeeecf106f96f8ba369780c9f12e55d53e89367ea777d1478b58a"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-08-s01.mp3",
+          "bytes": 97847,
+          "sha256": "df071cae197b7fefeb48a4bf672a2795bda3815ef563f6c66a77d6adb40647cb"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-08-s02.mp3",
+          "bytes": 107042,
+          "sha256": "d857eaac831d45b61f8b7d68f6d608ca1035ced03a0fd6a63f9679edd7f9c83b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-08-s03.mp3",
+          "bytes": 72769,
+          "sha256": "314ca19f03bb5f212b83bddd0407c3ab0cd2acdce4879268bf5a5b3cd408ba0e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-08-s04.mp3",
+          "bytes": 34735,
+          "sha256": "2d3e424018c316845b8e9a905251774d023e07743c73a88a65ccca03641c8ee0"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-08-s05.mp3",
+          "bytes": 164720,
+          "sha256": "cd09a6d27e4f2b689a727ca6c32360f668c041e704ce4c70952a91bf095763ea"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p12-08-s06.mp3",
+          "bytes": 70680,
+          "sha256": "a8777ba12dfabf53eec598ca321b19fa91f1c1b7b5e608831842d6250a858302"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-00-s01.mp3",
+          "bytes": 90742,
+          "sha256": "48374a46c6867695989b4513c3114838e8e5c064da76c1091250eb4734c52280"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-00-s02.mp3",
+          "bytes": 43930,
+          "sha256": "1029481131f776e86ea05a0aef3af2c6ef26fb8bcd2d49219b1c7056dd66b1c7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-01-s01.mp3",
+          "bytes": 137553,
+          "sha256": "3908e58659ac0cfb0576837105ab653b188b555bcf258864825e9f990b660744"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-01-s02.mp3",
+          "bytes": 35571,
+          "sha256": "7ec12058c234991cf0dc0576e4f3e954956a9b5e6b1b5310ca44d67983d8bb37"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-01-s03.mp3",
+          "bytes": 77785,
+          "sha256": "385c2b623aadc799190214173a56905178243b73f141e78ff6401594e0f57968"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-02-s01.mp3",
+          "bytes": 18435,
+          "sha256": "bb20e2d0b5802bf827bbe6b87405bf6daa20aed4c7e45e053d233a2447e6334f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-02-s02.mp3",
+          "bytes": 36407,
+          "sha256": "82b22f60065b8d3a083df386e3d7444c6a6cafa3bd0e0913020a672fa6c34624"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-02-s03.mp3",
+          "bytes": 32645,
+          "sha256": "19e16d5c5ad7b4376d58a69945b4759a07bf27c559e7cd2c787292de6bcf7177"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-02-s04.mp3",
+          "bytes": 34735,
+          "sha256": "aacb4f886555af9e658c8e407e0593d248504d3fe6c8ed38ac862c56b284c0ba"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-03-s01.mp3",
+          "bytes": 44348,
+          "sha256": "17bcea916a86b377ba765f1e04523813a2d846b215f5411ea5a2749ddaf73d8a"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-03-s02.mp3",
+          "bytes": 35571,
+          "sha256": "c42802aa36371c450a1ef57ff56d9dc7e25bd59f9638cf7190d241da522b168d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-04-s01.mp3",
+          "bytes": 25122,
+          "sha256": "f4fc9b8a99f3959e7d0b05a176b08cc58f3dc4cb50fca840ea5d02141958f0c2"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-04-s02.mp3",
+          "bytes": 40587,
+          "sha256": "92a7be50a81afb771f9a10bed85211aec1f7cc1246ecd17e844fd3890cc99d3c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-05-s01.mp3",
+          "bytes": 61485,
+          "sha256": "93596c9611d24055ec37a3f2049da386946fb15eee92ea39c0871bd2e96ad844"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-05-s02.mp3",
+          "bytes": 73605,
+          "sha256": "27238119c3adb9c323f5c2c1497370010a4f1a3e453fee8fa8e04b1bf586924e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p13-05-s03.mp3",
+          "bytes": 52707,
+          "sha256": "de7b2ba22329080727a3d2376fff197f2bf78a71d10e7e79c2c53c403197c5ef"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p14-00-s01.mp3",
+          "bytes": 47274,
+          "sha256": "1c8e96972fd6b14378d7e66fa85c98117433c4951afd15dd35ab3a965d5e5ede"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p14-01-s01.mp3",
+          "bytes": 89070,
+          "sha256": "49b1371c20ad1e41bf079bba6e23a008bf4dd0f33079fe1fe955756524bf6293"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p14-02-s01.mp3",
+          "bytes": 66082,
+          "sha256": "ce06fba42fa557dd4d1b3ba00ad8b36db5f73e71b2923b43ce8ec23ac34c2432"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p14-02-s02.mp3",
+          "bytes": 83218,
+          "sha256": "a911256ec0a17be6dba201fbd0061b3945d84068345d41853d4b1cf01de96297"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p15-00-s01.mp3",
+          "bytes": 23868,
+          "sha256": "d875914b63abae462cb767d42c844f0c9c2516bfe49109f6993432960864e488"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p15-00-s02.mp3",
+          "bytes": 33481,
+          "sha256": "9a25e9bcf323ea1217ef30b0682c2abeef3672de1565c4c04e53ece9682765e8"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p15-01-s01.mp3",
+          "bytes": 91996,
+          "sha256": "732e6c8419230a680a9b0003b25c09740d8ff30282ddf9ab55b93108c87db3af"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p15-01-s02.mp3",
+          "bytes": 45184,
+          "sha256": "65d92ddfe04de8350fddb48539da0d14599aaea3711defa9427a48d58898985d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p15-02-s01.mp3",
+          "bytes": 66082,
+          "sha256": "ac7bb260f4d1ea73119c9f9718ad300b851c612a057fe568b19251831e86fede"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p15-02-s02.mp3",
+          "bytes": 41422,
+          "sha256": "41252f4e1ac0b459017ee81fce7583f0a77e43fd23c733093c5b0a960ee2de26"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p16-00-s01.mp3",
+          "bytes": 59395,
+          "sha256": "d05c7bcdbee0afb1f63b93fc9c176edb7e4e9eefc671a55eec81f5036dd9c9e3"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p16-01-s01.mp3",
+          "bytes": 51036,
+          "sha256": "34d0c47d20b5898a52a0eb0d0ac6ad087ce6d0970fd452541783fba4a249b199"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p16-01-s02.mp3",
+          "bytes": 73605,
+          "sha256": "78ca4f2aeda4ebdb114ea23f8a26588285b35c9ed194b2eacaad93da659f460b"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p16-02-s01.mp3",
+          "bytes": 51036,
+          "sha256": "418ec6f5a067e3ee62d5b64611e35775d14d61acdb87ea27479e9a0eecf88220"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p16-02-s02.mp3",
+          "bytes": 63156,
+          "sha256": "2e8299676d50201cecb47e9d332f072f4ea11411eb71944c2264bcf0f599dbd3"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s01.mp3",
+          "bytes": 28884,
+          "sha256": "5d5e0bc07498b093b3802d028fe04d90bfbcbbaea1afb1b2c0d4d30b1dd7c557"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s02.mp3",
+          "bytes": 89906,
+          "sha256": "4b1ad96b26cc4f740dd7dc9022822a25f54022d6e2ab855c867b1630ea61efdc"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s03.mp3",
+          "bytes": 97429,
+          "sha256": "7685e0003d4b69e5596db59ab0e657641fc9d58a6ec794409756a76a7ea4f8e2"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s04.mp3",
+          "bytes": 78621,
+          "sha256": "87f50d0ef3ab61b710005add35e0b8660e0bca4ad8300d7bd9f63790971d3aca"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s05.mp3",
+          "bytes": 74023,
+          "sha256": "33994c59f6017e636182171474bc4f4c0444cd5a09d0ae6bb0c4aab64cc08adc"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s06.mp3",
+          "bytes": 69008,
+          "sha256": "9bdeb7c0a0ad6a5386b492cca1592d1367fece010deb15a941b263a605974362"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s07.mp3",
+          "bytes": 97429,
+          "sha256": "15d4d60d1ad0394f05758f990a64c130bc3a261eea022f5a498004dd3edb123a"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s08.mp3",
+          "bytes": 116655,
+          "sha256": "61c2a7bf440863a5f6f6f74b53452ce9161535ead392a75d957032fcf10c3eec"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s09.mp3",
+          "bytes": 100355,
+          "sha256": "243e16ab48f6be8a7719df6d7563a635b408a67a8fb160e97f95dbbffdb78a9c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s10.mp3",
+          "bytes": 81547,
+          "sha256": "5cc2fb74e2a41908c8f26e8c71643a6ebae4c8f4bcdb134769d6f62b5fc6ef6c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s11.mp3",
+          "bytes": 77785,
+          "sha256": "6f797ec75a5af33336b34348dc0e781530cc8b53f92be0ae4eeaa4fecc533729"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s12.mp3",
+          "bytes": 46856,
+          "sha256": "8cc29b31640dd73d0b1b8687a11ed43edafc1af171b862390cc7c0f0b570f3f0"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s13.mp3",
+          "bytes": 44348,
+          "sha256": "0f29e9aa4e78d97008dfbab17a3c2aa465a9236e77e2fa510e0d553c09de333c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p17-00-s14.mp3",
+          "bytes": 108296,
+          "sha256": "5906861f2fb5e41eb671ad69912b3830eb6903a76578d602161bf53e91fe469f"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s01.mp3",
+          "bytes": 49782,
+          "sha256": "e254388d8edf5f477967f807e7e6361917c34ab91010a8931a47f561688859f7"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s02.mp3",
+          "bytes": 85308,
+          "sha256": "e045ac3a9809042835685d3c66e8d0be6610f522603af507b8d3b10396986518"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s03.mp3",
+          "bytes": 143405,
+          "sha256": "6959946ffe364e596be29d2491351d73379eed2393789fe64cfa96aba88b9c05"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s04.mp3",
+          "bytes": 51871,
+          "sha256": "0bc062daae1b09e107b1f82fb3d5b5b1f455e96c9541ea4dd9b07229dcd61b86"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s05.mp3",
+          "bytes": 47274,
+          "sha256": "3b8563fa56de40c97af5cec1ba753822a317222b2cd3f048133a548010bdd9f6"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s06.mp3",
+          "bytes": 91160,
+          "sha256": "8b5a75b1a9c2a4087798f9a58ea51208b14edc338666bbe653b398919d21f852"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s07.mp3",
+          "bytes": 91996,
+          "sha256": "a611194a856cc0e90a582c52865bd1a1b6b0c43d25e26756eec50b4d2a2c6f2e"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s08.mp3",
+          "bytes": 145494,
+          "sha256": "1dc186fe7085d570a338602a61bfbe2839a96a354d147b9263a5a7afdde5be3a"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s09.mp3",
+          "bytes": 22196,
+          "sha256": "9db72f4e68f0c33f85d5464bb1aa98420e1cfe507671930de5f938d21a694f08"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s10.mp3",
+          "bytes": 76531,
+          "sha256": "1836938c0a68068ac0d953fa4eca62409c5aacf2430241cdbe8d232d2673a14c"
+        },
+        {
+          "path": "public/talks/enterprise-agent/audio/p18-00-s11.mp3",
+          "bytes": 34735,
+          "sha256": "de24f2195257a69214c70ad66d13d25e900f08f9165c5bc3538fb2ffa6a5697d"
+        },
+        {
+          "path": "public/talks/enterprise-agent/index.html",
+          "bytes": 3102746,
+          "sha256": "eb6e84a00ddca8bbfe87321ac627cbd113f916d866a8362c6a364961a4fd6968"
+        },
+        {
+          "path": "public/talks/enterprise-agent/presentation-layout.js",
+          "bytes": 1413,
+          "sha256": "6bb954b0ae46a98435a2af8b8d61a8e755fe17cb5b579fc5ee5a0d3b54b8bccc"
+        },
+        {
+          "path": "public/talks/enterprise-agent/recording-manifest.json",
+          "bytes": 123853,
+          "sha256": "ff71a0aff56ff723ef0d4005273528c41dd25f8e66c73d620c5006574565946f"
+        },
+        {
+          "path": "public/window.svg",
+          "bytes": 385,
+          "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1"
+        },
+        {
+          "path": "scripts/build-static.mjs",
+          "bytes": 5063,
+          "sha256": "a3931d4414c1a38953f45515e58c74e68d099a00bcd07326af53f61b8eec8202"
+        },
+        {
+          "path": "scripts/build-verified.sh",
+          "bytes": 1028,
+          "sha256": "cfb76ae254ff9fc4980e9d71c0017fb34da7f3735f3ddd60b75fd80fe885448a"
+        },
+        {
+          "path": "scripts/install-ci.sh",
+          "bytes": 6548,
+          "sha256": "553ab0b8a2fe3627d212ac4d88eec709f7bffcaf5198a8cece2eb2c7a51101e3"
+        },
+        {
+          "path": "scripts/serve-static.mjs",
+          "bytes": 2805,
+          "sha256": "afa5564ee4c45293e66d60f9a11f853bce76b21d4685758bd80e52a06ce6880f"
+        },
+        {
+          "path": "scripts/sites-env.sh",
+          "bytes": 1495,
+          "sha256": "d817ca63da6bbade8640815875acd124f10bc5bc2003c02d33f9da1bed4a1b24"
+        },
+        {
+          "path": "scripts/validate-artifact.sh",
+          "bytes": 1979,
+          "sha256": "1782dcbdd1f65dfece25d1873c94e844318a600dfdfeade4a6800c42cc32cfc6"
+        },
+        {
+          "path": "tests/portfolio-flow.test.mjs",
+          "bytes": 2495,
+          "sha256": "1d59afeafacc1f7ed2e6ffe6175af20acad8c169075b5958bb50547ae5d15903"
+        },
+        {
+          "path": "tests/presentation-flow.test.mjs",
+          "bytes": 4054,
+          "sha256": "d5008024f73e269b51e5d9d7f26d155848e2ffd7920c0cae9831195444b7da8d"
+        },
+        {
+          "path": "tests/rendered-html.test.mjs",
+          "bytes": 3471,
+          "sha256": "592de14898ccfa2be515a4119e8e9ea77833f97d1732e0a123630b3faad14e19"
+        },
+        {
+          "path": "tools/static-builder/package-lock.json",
+          "bytes": 38751,
+          "sha256": "abee72613be180547fe61c2217b6d349b5576db6c11c799ca819ee04f13af1fb"
+        },
+        {
+          "path": "tools/static-builder/package.json",
+          "bytes": 401,
+          "sha256": "a58ebb7df88afdcb5d22fe2e98f147a50fe98770a7995ac3b407f814796bc408"
+        },
+        {
+          "path": "tools/static-builder/tsconfig.scene.json",
+          "bytes": 859,
+          "sha256": "c3f77a8b75e13318c6984a83de22ffe1b2697683ad658c7a1ad8aab14f204cf0"
+        },
+        {
+          "path": "tsconfig.json",
+          "bytes": 666,
+          "sha256": "be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3"
+        },
+        {
+          "path": "vite.config.ts",
+          "bytes": 1807,
+          "sha256": "43e5f02f727ca043f08ebf34789f330580a7a0cb90f426c92f4a454d066988fc"
+        },
+        {
+          "path": "worker/index.ts",
+          "bytes": 1731,
+          "sha256": "2ed36d7fa996e946d9d7695c5925e7760246f6bf8fa35c06f1bc515c087dc450"
+        }
+      ]
+    },
+    {
+      "directory": "neuro-harbor",
+      "asset": "neuro-harbor.zip",
+      "sha256": "1dea6dee3454c95a1f1d729fc50eb5657c639fe70612001a4c63291d987c3431",
+      "sourceCommit": "a21b1234f8e3140bc32bd583307c59fdb0b1d34b",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 96,
+          "sha256": "a90b6f5b11d99108d52910537581b2fb95446f014749d326a286135671f00475"
+        },
+        {
+          "path": "README.md",
+          "bytes": 5983,
+          "sha256": "e577233b16ea83fb799e66e5e9c392f8ffb04e7c78cfc521d29f93c59e392e0f"
+        },
+        {
+          "path": "SSVEP.md",
+          "bytes": 5923,
+          "sha256": "e267dda5816e23a52a61e5690579377a1d64c356a9210f29bfb9562b57fff8c9"
+        },
+        {
+          "path": "VALIDATION.md",
+          "bytes": 4228,
+          "sha256": "eba98cc3424bf1f69816ef98e2230305c490b91cd08c1f6d4f332855588800d1"
+        },
+        {
+          "path": "decoder.py",
+          "bytes": 10261,
+          "sha256": "8933c1d5452ed37f1e906bebb69adefe23aa4e62a27f38a52b55d166d5ab9035"
+        },
+        {
+          "path": "lsl_bridge.py",
+          "bytes": 8382,
+          "sha256": "d94366fc6a7860483cd8bb5154dc2bbcabb868f40b15aaaa1fccd6fe8366c3b6"
+        },
+        {
+          "path": "package-lock.json",
+          "bytes": 525,
+          "sha256": "feb53941588354a42e63451facb84136504a045e686a50e5b3cb97466377f954"
+        },
+        {
+          "path": "package.json",
+          "bytes": 287,
+          "sha256": "639784023f3ba241335b90a55fa0550084a70567884de3fe1339197d2177d763"
+        },
+        {
+          "path": "process_bridge.py",
+          "bytes": 6477,
+          "sha256": "5c91faf906ea0c11d9a8a3e19d9a036d6d6ef6f7b280d78f13c6c304f985e046"
+        },
+        {
+          "path": "requirements.txt",
+          "bytes": 59,
+          "sha256": "66e5a7679b91b7c6ca1c7824d4eaf39b363c1f9c2cbe71448b182a8efc4bff1d"
+        },
+        {
+          "path": "scripts/launch.py",
+          "bytes": 1288,
+          "sha256": "f90de0e74121e80e99fe1d3fe16fb639f354101f543b380d3693d9605d5804f2"
+        },
+        {
+          "path": "scripts/probe_lsl.py",
+          "bytes": 933,
+          "sha256": "a773fa035dbf0704fb93c57bc7f5768016b259da5cb0e2dcb3853b44c945da31"
+        },
+        {
+          "path": "scripts/setup.py",
+          "bytes": 1627,
+          "sha256": "614b0022ecf8c98693738e9b343964b7dd4893f4d3f4b3336d14e1000ef2d3cb"
+        },
+        {
+          "path": "server.py",
+          "bytes": 10723,
+          "sha256": "aa118665a5c8f1c77418e1a6d19b896e755be56f4f81d0b216e0084d8f0b65cb"
+        },
+        {
+          "path": "ssvep.py",
+          "bytes": 13403,
+          "sha256": "257b60a3289df3f053ff399d9e354ea00c23c92dcb5b350f3313ca8529a82338"
+        },
+        {
+          "path": "tests/control.test.mjs",
+          "bytes": 2205,
+          "sha256": "e2f72d477b544349d0f0ee99792648642566838460ce3c8c4137fae63676b2a5"
+        },
+        {
+          "path": "tests/lsl_smoke.py",
+          "bytes": 2791,
+          "sha256": "e7da4cb45b025ad2da1c412d50551dd8d05c4554435bcf8d6c5f38f35aa23c06"
+        },
+        {
+          "path": "tests/ssvep-surface.test.mjs",
+          "bytes": 4303,
+          "sha256": "a8135a3f187798bfa282c145ec3e3691c195513737e3ca2700fe88b7c43280ae"
+        },
+        {
+          "path": "tests/ssvep.test.mjs",
+          "bytes": 2354,
+          "sha256": "7dd917740cd5babdba80f89ee150fa5fc74f163bf06adf9ac92fcbfb726fc708"
+        },
+        {
+          "path": "tests/test_decoder.py",
+          "bytes": 4891,
+          "sha256": "0e1e2a777dd3ed11f85479344302a35e8ffc01be8e4d11bcaceb93d81df9853a"
+        },
+        {
+          "path": "tests/test_process_bridge.py",
+          "bytes": 2624,
+          "sha256": "ce7369bffed42c3aa2e1435d38a20f653c70984b7712b0e9df6af3c62bd1c73d"
+        },
+        {
+          "path": "tests/test_server.py",
+          "bytes": 6491,
+          "sha256": "447931fcf0a77aed809621d54818ae3cc55e4f053ef46a90bde3dca094d9da8e"
+        },
+        {
+          "path": "tests/test_ssvep.py",
+          "bytes": 5659,
+          "sha256": "743593a5fdb670140b02c43e3800858b054b08b162c952eb24561ed31dded16d"
+        },
+        {
+          "path": "web/app.js",
+          "bytes": 16159,
+          "sha256": "1bf95b37cfcb9c371a47f6262b5baab04164c45f3a53fc5ef7aa77447d936195"
+        },
+        {
+          "path": "web/control.js",
+          "bytes": 3978,
+          "sha256": "26799fc04f361d331d02a76a9036d1abf4e3d37a8531f2aeb729cb914a79fe6c"
+        },
+        {
+          "path": "web/index.html",
+          "bytes": 9285,
+          "sha256": "5032828a18f95a0c90767c8957d0523ef54be5f2ebd14c7db3f04315f47e1c0f"
+        },
+        {
+          "path": "web/scene.js",
+          "bytes": 7043,
+          "sha256": "77cb4c18d3d3b9e9057f3d86d584c219500820feb3993773d71299c391369e4e"
+        },
+        {
+          "path": "web/ssvep-clock.js",
+          "bytes": 2381,
+          "sha256": "64c6ceaa037d31dcaa0244a70e38095ec32f1b2576d179bbc2cb4dab2938624a"
+        },
+        {
+          "path": "web/ssvep-ui.js",
+          "bytes": 9294,
+          "sha256": "f993e0a6d4026235a92ff47e88147703a122b846856c9b3cc45c086e7937406f"
+        },
+        {
+          "path": "web/style.css",
+          "bytes": 15157,
+          "sha256": "53df6b75f13c6ecca022867442953b949e1c051214b1e6f2bd8880355612aef8"
+        },
+        {
+          "path": "启动脑电游戏.command",
+          "bytes": 582,
+          "sha256": "116122fa18ca94851bd2e2a0f73ea845ab8896a1bf1b3a397f9d08dee86fc269"
+        }
+      ]
+    }
+  ]
+}
