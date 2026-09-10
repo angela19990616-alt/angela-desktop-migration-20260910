@@ -5328,6 +5328,136 @@
         }
       ],
       "excluded": "credentials, unknown configs, documentation, private data, assets, dependencies, Git history, nested projects"
+    },
+    {
+      "directory": "bci-examples-source",
+      "asset": "bci-examples-source.zip",
+      "sha256": "048e7007b6f584b6e6687759e940805454e7c98bd5f8ccd7ba05d063e06458b0",
+      "sourceCommit": null,
+      "scope": "selected current code files only; not a runnable full backup",
+      "files": [
+        {
+          "path": "ALPHA_BLINK_RUNNER/alpha_blink_openvibe_controller.py",
+          "bytes": 17081,
+          "sha256": "214a3946a57f1e4c6b9f6f7dee4bd512237d77be55ce0f221448de2bffe8aaa9"
+        },
+        {
+          "path": "ALPHA_BLINK_RUNNER/app.js",
+          "bytes": 17207,
+          "sha256": "aee094f126a7db05b28318185dd013b0042a40b302666b1fcb9c18c603e15fef"
+        },
+        {
+          "path": "ALPHA_BLINK_RUNNER/brain_bridge.py",
+          "bytes": 8537,
+          "sha256": "5732a1abdd28d9f38dfdff76a6f2a7478d9ba82fef81dbe38220c5f9dbfe9005"
+        },
+        {
+          "path": "ALPHA_BLINK_RUNNER/index.html",
+          "bytes": 6013,
+          "sha256": "9b5f2c45dbd633212b6e407637a098270fe7c00a9944758945a64ddd5ba53377"
+        },
+        {
+          "path": "ALPHA_BLINK_RUNNER/overrides.css",
+          "bytes": 2903,
+          "sha256": "a2e05bc9b92150f3ba93bcd106e6ca376f6960e2081329c603b89c915064f9d7"
+        },
+        {
+          "path": "ALPHA_BLINK_RUNNER/requirements.txt",
+          "bytes": 44,
+          "sha256": "5d8affffea96f65faa012c3c9cdb714a833daf25bdd080220e2c5bc7d8ef2f1b"
+        },
+        {
+          "path": "ALPHA_BLINK_RUNNER/ssvep_car_openvibe_controller.py",
+          "bytes": 14437,
+          "sha256": "2995c8bd76635e71acc260fc62489d34905708e6d75271a8ac35938424ded6a0"
+        },
+        {
+          "path": "ALPHA_BLINK_RUNNER/styles.css",
+          "bytes": 15147,
+          "sha256": "04679b5e9389dd673aa838ce5b564466c3245cad7f8b1e989fb67ca74b627088"
+        },
+        {
+          "path": "CARGAME/app.js",
+          "bytes": 18283,
+          "sha256": "414f95a8b4ffbc007376ff6dd8269cad680458d4206c1b0fbe17e19449adfb91"
+        },
+        {
+          "path": "CARGAME/brain_bridge.py",
+          "bytes": 19750,
+          "sha256": "3d40885a0f5b961074476bac31c8fb07636690ac411cc90bf6bfb517e67aeade"
+        },
+        {
+          "path": "CARGAME/index.html",
+          "bytes": 7847,
+          "sha256": "1ce7b6dda199610e799353cb97357edbd6fb07dd21ade8757420a580d58e3a51"
+        },
+        {
+          "path": "CARGAME/overrides.css",
+          "bytes": 2903,
+          "sha256": "a2e05bc9b92150f3ba93bcd106e6ca376f6960e2081329c603b89c915064f9d7"
+        },
+        {
+          "path": "CARGAME/requirements.txt",
+          "bytes": 44,
+          "sha256": "5d8affffea96f65faa012c3c9cdb714a833daf25bdd080220e2c5bc7d8ef2f1b"
+        },
+        {
+          "path": "CARGAME/ssvep_car_openvibe_controller.py",
+          "bytes": 14437,
+          "sha256": "2995c8bd76635e71acc260fc62489d34905708e6d75271a8ac35938424ded6a0"
+        },
+        {
+          "path": "CARGAME/styles.css",
+          "bytes": 18556,
+          "sha256": "9ca394b08edbc6038ea211bcbf11cd3cb3f109b1cb606c8195d8e55c81fa4fd9"
+        },
+        {
+          "path": "alpha-detector/alpha_state_detector.py",
+          "bytes": 4577,
+          "sha256": "82918b5fc6d7956968e440188052d1027b0bdc439d5c680ba7f1ef03a61ed971"
+        },
+        {
+          "path": "alpha-detector/ssvep_arithmetic_controller.py",
+          "bytes": 8018,
+          "sha256": "140fc58d7d590a331f912c6942b257dd3fac7a2c4663ab3606fd0508ae786ec6"
+        },
+        {
+          "path": "alpha-detector/ssvep_arithmetic_server.py",
+          "bytes": 2681,
+          "sha256": "50a716b22decc9570ebe9ea3949c2c070ccbdb443ac885f691aca3106877e031"
+        },
+        {
+          "path": "alpha-detector/ssvep_arithmetic_ui.html",
+          "bytes": 6222,
+          "sha256": "685ebd8dcdc8e5f199af8e2c4133e5963362314141d4a7b6947ebccf3dee4966"
+        },
+        {
+          "path": "alpha-detector/ssvep_grouped_arithmetic_controller.py",
+          "bytes": 10793,
+          "sha256": "5448326975bdf0c0cd81f4e6510cea4ecbbe08994616c790d922f44c99089cee"
+        },
+        {
+          "path": "alpha-detector/ssvep_grouped_arithmetic_server.py",
+          "bytes": 4744,
+          "sha256": "959305d9bb1d8bc9e14411b8e9fc1fbb851a8ee52f71ad1e771ea7faf4de6702"
+        },
+        {
+          "path": "alpha-detector/ssvep_grouped_arithmetic_ui.html",
+          "bytes": 7930,
+          "sha256": "b12878a428e5601f35680e184bdfcbe8cf0a08e0ded44ae515fb6c79596bf1aa"
+        },
+        {
+          "path": "alpha-detector/ssvep_music_controller.py",
+          "bytes": 6031,
+          "sha256": "e63ffbe4fb86ff9e85ab28480c9b1e63b7a0d47e550178eb5aac0d234e1677c1"
+        },
+        {
+          "path": "alpha-detector/ssvep_music_targets.html",
+          "bytes": 2726,
+          "sha256": "e6531ffac1265a8e740c60bb0ec472122bd9ad02ccdc141e2af0b1eca01cc8f0"
+        }
+      ],
+      "excluded": "credentials, unknown configs, documentation, private data, assets, dependencies, Git history, nested projects"
     }
   ]
 }
