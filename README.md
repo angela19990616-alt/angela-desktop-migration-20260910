@@ -72,3 +72,4 @@ npm run preview:static
 - `system-maintenance-source`：14 个源码文件。
 - `secrets-hub-program-source`：10 个源码文件。
 - `mail-automation-source`：3 个源码文件。
+- `bci-examples-source`：24 个源码文件。
