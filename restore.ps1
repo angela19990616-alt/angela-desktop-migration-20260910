@@ -1,6 +1,6 @@
 param([string]$Root = (Join-Path $env:USERPROFILE 'AngelaProjects'))
 $ErrorActionPreference = 'Stop'
-$manifest = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'manifest.json') -Raw | ConvertFrom-Json
+$manifest = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 if (-not (Get-Command gh -ErrorAction SilentlyContinue)) { throw 'Install GitHub CLI, then run gh auth login.' }
 & gh auth status 2>$null
 if ($LASTEXITCODE -ne 0) { throw 'Run gh auth login with your GitHub account first.' }
@@ -11,7 +11,7 @@ foreach ($project in $manifest.projects) {
     $target = Join-Path $Root $project.directory
     if (Test-Path -LiteralPath $target) {
         $marker = Join-Path $target '.migration-verified.json'
-        if ((Test-Path -LiteralPath $marker) -and ((Get-Content -LiteralPath $marker -Raw | ConvertFrom-Json).archiveSha256 -eq $project.sha256)) {
+        if ((Test-Path -LiteralPath $marker) -and ((Get-Content -LiteralPath $marker -Raw -Encoding UTF8 | ConvertFrom-Json).archiveSha256 -eq $project.sha256)) {
             $valid = $true
             foreach ($file in $project.files) {
                 $path = Join-Path $target $file.path
