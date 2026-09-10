@@ -55,3 +55,20 @@ npm run preview:static
 ## 回滚
 
 本工具只在指定新目录写入已核验文件。停止本次启动的终端即可停止预览；保留原 Mac 项目和现有公网入口。撤销迁移时只移除本次新建且已确认不再需要的目标副本，不修改原项目、域名、数据库或现有服务。
+
+## 已备份的其他代码副本
+
+以下快照仅含当前程序代码，不包含素材、数据、配置、依赖或 Git 历史，暂不能直接当作完整项目运行。
+
+- `government-agent-source`：109 个源码文件。
+- `organization-simulation-source`：34 个源码文件。
+- `chatgpt-game-source`：5 个源码文件。
+- `media-tools-source`：7 个源码文件。
+- `finance-tools-source`：12 个源码文件。
+- `bid-agent-source`：290 个源码文件。
+- `retail-demo-source`：3 个源码文件。
+- `selfopt-layer-source`：5 个源码文件。
+- `lingxi-source`：201 个源码文件。
+- `system-maintenance-source`：14 个源码文件。
+- `secrets-hub-program-source`：10 个源码文件。
+- `mail-automation-source`：3 个源码文件。
