@@ -1,3 +1,87 @@
+<!-- expanded-projects-20260911 -->
+# Angela 项目备份 · 2026-09-11
+
+本次补充备份覆盖 **39 个项目目录及版本集合、4154 个文件**。这些目录包含嵌套项目和历史副本，不等于 39 个独立产品。
+
+[打开本次备份与下载文件](https://github.com/angela19990616-alt/angela-desktop-migration-20260910/releases/tag/expanded-projects-20260911)
+
+包含本机登记的 9 个工作项目，以及脑机示例、独立演示、灵犀实际运行版本和历史版本、当前 3D 网站与企业 Agent 演讲。压缩包按文件内容去重；必须用随包的恢复工具还原目录，不要把 blobs 目录直接当项目运行。
+
+ZIP 大小约 104.9 MiB。已实际恢复全部目录并逐文件核验 SHA-256，同时检查中文路径、Windows 保留名称、大小写冲突和防覆盖行为。GitHub 上传完整性以对应云端回执为准。
+
+## Windows 下载与恢复
+
+需要 Python 3.9 或更新版本、GitHub CLI，并以能访问这个私有仓库的账号完成 `gh auth login`。无需把密钥或账号密码发给别人。
+
+在 PowerShell 中运行：
+
+```powershell
+gh release download expanded-projects-20260911 --repo angela19990616-alt/angela-desktop-migration-20260910 --pattern projects-for-windows.zip --pattern restore-expanded.py --pattern SHA256SUMS.txt --dir .\AngelaMigration-20260911
+python .\AngelaMigration-20260911\restore-expanded.py --archive .\AngelaMigration-20260911\projects-for-windows.zip --sha256 af9168d5cd1e691f2ea20ae6c71c717764779612637495f201f924c7c436f0f0 --destination "$env:USERPROFILE\AngelaProjects-20260911"
+```
+
+恢复工具拒绝覆盖已有项目；再次恢复请换一个新目录。可追加 `--project website-current-source` 仅恢复当前网站，或使用下表的其他目录名。文件恢复完成后，还需重新安装 Windows 依赖、配置账号、恢复所需数据并逐项验证应用。当前尚未在 Windows 实机执行。
+
+## 范围与保留项
+
+- 原 Mac 项目、Git 历史、数据库、上传资料、私有模型和其他原始资料继续留在 Mac；原公网网站继续运行。
+- GitHub 包中不包含密钥、私人或企业原始资料、邮件附件、数据库、未知配置、依赖缓存和符号链接指向的私有素材。整个排除目录未展开计数；它不是整机镜像或完整运行环境备份。
+- 读取超时的候选文件已补读；当前未挂载的外接硬盘，以及只存在服务器上的内容不在这次本机文件快照内。
+- 17 份源文件副本中的内嵌凭据或未确认的测试凭据字面值已替换为占位符；本机原文件未修改。相应文件在包内清单中标记 `inlineCredentialsRemoved`，使用 AI 功能前需另行安全配置。
+- 一份旧演示 `demo-manifest-station-final-packaged/index.html` 原本就有 JavaScript 语法错误，备份保留其原有状态；验证未发现移除凭据引入新的语法错误。
+
+## 目录清单
+
+| 恢复目录 | 已核对文件数 |
+| --- | ---: |
+| `lingxi-dev` | 360 |
+| `lingxi-running` | 142 |
+| `government` | 146 |
+| `organization` | 61 |
+| `game` | 8 |
+| `media` | 27 |
+| `finance` | 14 |
+| `bid-agent` | 340 |
+| `retail-demo` | 39 |
+| `bci-examples` | 48 |
+| `codex-projects` | 28 |
+| `system-projects` | 1236 |
+| `lingxi-release-history` | 1291 |
+| `website-current-source` | 314 |
+| `demo-manifest-station-ai-auto` | 2 |
+| `demo-manifeststation-starryai-v2` | 2 |
+| `demo-openhex-browser-extension` | 39 |
+| `demo-manifest-station-final-cleaned` | 2 |
+| `demo-manifest-lux-final-bundle` | 2 |
+| `demo-ai-convenience-store-demo` | 3 |
+| `demo-manifest-clean` | 2 |
+| `demo-ai-store-os-agent-web-v3-3` | 4 |
+| `demo-ai-store-os-agent-web` | 4 |
+| `demo-ai-digital-clerk-web` | 2 |
+| `demo-manifest-station-package` | 2 |
+| `demo-ai-store-os-agent-web-v2` | 4 |
+| `demo-urbanscenario-ai-demo-2` | 2 |
+| `demo-manifest-station-3` | 2 |
+| `demo-mailpilot-ai-gmail-demo` | 2 |
+| `demo-ai-store-os-agent-web-v3` | 4 |
+| `demo-manifeststation-final` | 2 |
+| `demo-manifest-clean-2` | 2 |
+| `demo-manifest-station-final-packaged` | 2 |
+| `demo-manifest-lux-website` | 2 |
+| `demo-urbanscenario-ai-demo` | 2 |
+| `demo-structure-rpg-runjump` | 2 |
+| `demo-manifeststation-starryai` | 2 |
+| `demo-ai-digital-clerk-ai-web` | 6 |
+| `standalone-3d-prototypes` | 2 |
+
+## 回退
+
+2026-09-10 的原备份 Release 和恢复工具仍保留。需要回退时使用旧 Release 或 Mac 原项目；本次只新增备份，不切换服务、域名或数据库。网页和编译缓存会按使用需要重建。
+
+---
+
+## 2026-09-10 旧版恢复说明（保留供回退）
+
 # Angela 项目迁移到 Windows
 
 这是迁移工具和已核对源码的接收入口。它不是所有项目已迁移完成的证明。
